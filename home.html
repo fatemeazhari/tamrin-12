@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container{
+        border: 1px solid blue;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+
+      }
+      .box {
+        border: 1px solid red;
+        width: calc(100% - 3);
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Lorem 1 ipsum dolor sit amet.</div>
+      <div class="box">Lorem 2ipsum dolor sit amet.</div>
+      <!-- <div class="box">Lorem 3 ipsum dolor sit amet.</div>
+      <div class="box">Lorem ipsum dolor sit amet.</div> -->
+      
+      
+    </div>
+  </body>
+</html>
