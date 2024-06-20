@@ -83,3 +83,31 @@ h2{
 nav a{
     justify-content: space-between;
 }
+.media{
+    padding: 90px;
+    margin:30px;
+    
+    
+}
+.media-icon{
+    color: rgb(245, 117, 5);
+    align-items: center;
+    padding: 5px;
+   
+}
+.media-icon-btn{
+    font-size: 28px;
+    transition: 0.5s;
+    
+}
+.media-icon-btn:hover{
+    color: gray;
+    background-color: antiquewhite;
+}
+.box{
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+    padding: 10px 15px;
+}
